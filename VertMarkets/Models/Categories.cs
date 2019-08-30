@@ -6,6 +6,6 @@ namespace VertMarkets.Models
 {
     public class Categories : Token
     {
-        public List<string> Data { get; set; }
+         public List<string> Data { get; set; }
     }
 }

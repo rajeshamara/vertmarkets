@@ -9,6 +9,6 @@ namespace VertMarkets.Models
         public string id { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
-        public List<int> magazineIds;
+        public List<int> magazineIds {get; set;}
     }
 }

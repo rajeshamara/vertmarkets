@@ -6,7 +6,7 @@ namespace VertMarkets.Models
 {
     public class AnswerResponse : Token
     {
-        public Answer data { get; set; }
+         public Answer data { get; set; }
         public string message { get; set; }
 
         
