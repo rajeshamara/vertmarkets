@@ -1,0 +1,14 @@
+F:\Programs\Interview\VertMarkets\VertMarkets\bin\Release\netcoreapp3.0\VertMarkets.exe
+F:\Programs\Interview\VertMarkets\VertMarkets\bin\Release\netcoreapp3.0\VertMarkets.deps.json
+F:\Programs\Interview\VertMarkets\VertMarkets\bin\Release\netcoreapp3.0\VertMarkets.runtimeconfig.json
+F:\Programs\Interview\VertMarkets\VertMarkets\bin\Release\netcoreapp3.0\VertMarkets.runtimeconfig.dev.json
+F:\Programs\Interview\VertMarkets\VertMarkets\bin\Release\netcoreapp3.0\VertMarkets.dll
+F:\Programs\Interview\VertMarkets\VertMarkets\bin\Release\netcoreapp3.0\VertMarkets.pdb
+F:\Programs\Interview\VertMarkets\VertMarkets\bin\Release\netcoreapp3.0\Newtonsoft.Json.dll
+F:\Programs\Interview\VertMarkets\VertMarkets\obj\Release\netcoreapp3.0\VertMarkets.csprojAssemblyReference.cache
+F:\Programs\Interview\VertMarkets\VertMarkets\obj\Release\netcoreapp3.0\VertMarkets.csproj.CoreCompileInputs.cache
+F:\Programs\Interview\VertMarkets\VertMarkets\obj\Release\netcoreapp3.0\VertMarkets.AssemblyInfoInputs.cache
+F:\Programs\Interview\VertMarkets\VertMarkets\obj\Release\netcoreapp3.0\VertMarkets.AssemblyInfo.cs
+F:\Programs\Interview\VertMarkets\VertMarkets\obj\Release\netcoreapp3.0\VertMarkets.csproj.CopyComplete
+F:\Programs\Interview\VertMarkets\VertMarkets\obj\Release\netcoreapp3.0\VertMarkets.dll
+F:\Programs\Interview\VertMarkets\VertMarkets\obj\Release\netcoreapp3.0\VertMarkets.pdb
