@@ -35,7 +35,7 @@ namespace VertMarkets
                 var task =  Communication.Get<Magazines>(action);
                 lTasks.Add(task);
             }
-            Task.WaitAll(lTasks.ToArray());
+            await Task.WhenAll(lTasks.ToArray());
             foreach(var t in lTasks)
             {
                 magazines.Add(t.Result.data.First().category, t.Result.data);

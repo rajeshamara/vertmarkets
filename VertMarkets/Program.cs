@@ -15,11 +15,12 @@ namespace VertMarkets
 
                 // Get Token
                 Token t = await m.GetToken();
+                Console.WriteLine($"Retrieved Token : {t.token}");
                 // Get Subscribers
                 var tSubscribers =  m.GetSubscribers(t.token);
                 // Get Mazines
                 var tMagazines = m.GetMagazines(t.token);
-                Task.WaitAll(tSubscribers, tMagazines);
+                await Task.WhenAll(new Task[] { tSubscribers, tMagazines });
                 Subscribers s = tSubscribers.Result;
                 var magazines = tMagazines.Result;
                 // Get List of Subscribers who subscribed magazine in each category
