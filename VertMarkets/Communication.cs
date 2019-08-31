@@ -17,8 +17,7 @@ namespace VertMarkets
             {
                 using (HttpClient client = new HttpClient())
                 {
-                    string url = $"{baseUrl}{action}";
-                    HttpResponseMessage response = await client.GetAsync(url);
+                    HttpResponseMessage response = await client.GetAsync($"{baseUrl}{action}");
                     response.EnsureSuccessStatusCode();
                     return JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
                 }
@@ -35,9 +34,8 @@ namespace VertMarkets
             {
                 using (HttpClient client = new HttpClient())
                 {
-                    string url = $"{baseUrl}{action}";
                     var stringContent = new StringContent(JsonConvert.SerializeObject(data), UnicodeEncoding.UTF8, "application/json");
-                    HttpResponseMessage response = await client.PostAsync(url, stringContent);
+                    HttpResponseMessage response = await client.PostAsync($"{baseUrl}{action}", stringContent);
                     return JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
                 }
             }

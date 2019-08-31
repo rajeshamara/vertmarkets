@@ -18,7 +18,7 @@ namespace VertMarkets
                 Console.WriteLine($"Retrieved Token : {t.token}");
                 // Get Subscribers
                 var tSubscribers =  m.GetSubscribers(t.token);
-                // Get Mazines
+                // Get Magazines
                 var tMagazines = m.GetMagazines(t.token);
                 Task.WaitAll(new Task[] { tSubscribers, tMagazines });
                 Subscribers s = tSubscribers.Result;
